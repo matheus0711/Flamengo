@@ -1,0 +1,79 @@
+body {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    margin: 0;
+    padding: 0;
+    background-color: DarkRed;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+	font-size: 1.7rem;
+}
+
+section {
+    padding: 20px;
+    background-color: #F8F8FF;
+    margin: 20px 0;
+    text-align: left;
+	font-size: 1.5rem;
+}
+
+/* Centralizar o título do quiz */
+#quiz h2 {
+    text-align: center; /* Centraliza o título */
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+	text-shadow: -5px 2px 4px rgba(100,0,0,0.5);
+}
+
+/* Estilo para a figura com a imagem do Flamengo */
+.flamengo-image {
+    float: right; /* Posiciona a figura à direita */
+    margin: 0, 10, 10px, 40px; /* Margem para separar a figura do texto */
+}
+
+.flamengo-image img {
+    max-width: 500px; /* Define um tamanho máximo para a imagem */
+    height: auto;
+}
+
+.flamengo-image figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+.question {
+    margin-bottom: 20px;
+	
+}
+p {
+    font-weight: bold; /* Aplica negrito a todos os elementos <p> */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+	
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+}
